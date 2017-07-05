@@ -7,12 +7,6 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    private static final int POSITION_WELCOME = 0;
-    private static final int POSITION_ATTRACTION = 1;
-    private static final int POSITION_ACCOMODATION = 2;
-    private static final int POSITION_RESTAURANT = 3;
-    private static final int NUMBER_OF_POSITIONS = POSITION_RESTAURANT + 1;
-
     private Context mContext;
 
     public CategoryAdapter(Context context, FragmentManager fragmentManager) {
@@ -22,32 +16,38 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        if (POSITION_WELCOME == position) {
-            return new SzegedFragment();
-        } else if (POSITION_ATTRACTION == position) {
-            return new WhatToSeeFragment();
-        } else if (POSITION_ACCOMODATION == position) {
-            return new WhereToStayFragment();
-        } else {
-            return new WhatToTasteFragment();
+        switch (position) {
+            case 0:
+                return new SzegedFragment();
+            case 1:
+                return new WhatToSeeFragment();
+            case 2:
+                return new WhereToStayFragment();
+            case 3:
+                return new WhatToTasteFragment();
+            default:
+                return new WhatToDoFragment();
         }
     }
 
     @Override
     public int getCount() {
-        return NUMBER_OF_POSITIONS;
+        return 5;
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
-        if (POSITION_WELCOME == position) {
-            return mContext.getString(R.string.szeged_fragment);
-        } else if (POSITION_ATTRACTION == position) {
-            return mContext.getString(R.string.what_to_see_fragment_title);
-        } else if (POSITION_ACCOMODATION == position) {
-            return mContext.getString(R.string.where_to_stay_fragment_title);
-        } else {
-            return mContext.getString(R.string.what_to_taste_fragment_title);
+        switch (position) {
+            case 0:
+                return mContext.getString(R.string.szeged_fragment);
+            case 1:
+                return mContext.getString(R.string.what_to_see_fragment_title);
+            case 2:
+                return mContext.getString(R.string.where_to_stay_fragment_title);
+            case 3:
+                return mContext.getString(R.string.what_to_taste_fragment_title);
+            default:
+                return mContext.getString(R.string.what_to_do_fragment_title);
         }
     }
 }

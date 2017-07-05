@@ -107,4 +107,28 @@
         <item>@drawable/street_cake</item>
         <item>@drawable/pixel_bar</item>
     </array>
+
+    <string-array name="list_what_to_do_names">
+        <item>Sightseeing by small train</item>
+        <item>Sightseeing boat</item>
+        <item>Segway tours</item>
+    </string-array>
+
+    <string-array name="list_what_to_do_addresses">
+        <item>from the stop in 6720, Széchenyi Square</item>
+        <item>6721 Szeged, Tisza River Club (Pick Museum)</item>
+        <item>6726 Szeged, Torontál tér 1.</item>
+    </string-array>
+
+    <string-array name="list_what_to_do_opening_hours">
+        <item>Departure: daily every whole hour, approx. 50 mins</item>
+        <item>Operates: 1 May - 30 September</item>
+        <item>Opening hours: approx. 8.00 - 20.00 daily</item>
+    </string-array>
+
+    <array name="list_what_to_do_images">
+        <item>@drawable/train</item>
+        <item>@drawable/boat</item>
+        <item>@drawable/segway</item>
+    </array>
 </resources>
