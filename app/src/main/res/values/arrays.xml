@@ -7,9 +7,6 @@
         <item>Votive Church</item>
         <item>Szeged National Theatre</item>
         <item>Mora Ferenc Museum</item>
-        <item>Dugonics Square</item>
-        <item>River Tisza</item>
-        <item>Karasz Street</item>
     </string-array>
 
     <string-array name="list_what_to_see_addresses">
@@ -19,9 +16,6 @@
         <item>6720 Szeged, Dóm tér</item>
         <item>6720 Szeged, Stefánia 6.</item>
         <item>6720 Szeged, Roosevelt tér 1-3.</item>
-        <item>6720 Szeged, Dugonics tér</item>
-        <item>6720 Szeged, goes through city center</item>
-        <item>6720 Szeged, Kárász utca</item>
     </string-array>
 
     <array name="list_what_to_see_images">
@@ -31,9 +25,6 @@
         <item>@drawable/dom</item>
         <item>@drawable/theatre</item>
         <item>@drawable/museum</item>
-        <item>@drawable/dugonics</item>
-        <item>@drawable/tisza</item>
-        <item>@drawable/karasz</item>
     </array>
 
     <string-array name="list_what_to_see_opening_hours">
@@ -43,20 +34,14 @@
         <item>Opening hours: 9.00 - 17.00, Mondays closed</item>
         <item>Opening hours: Ticket Office 10.00 - 17.00 weekdays</item>
         <item>Opening hours: 10.00 - 18.00</item>
-        <item>Opening hours: Open 24 hours</item>
-        <item>Opening hours: Open 24 hours</item>
-        <item>Opening hours: Open 24 hours, shops are vary</item>
     </string-array>
 
     <string-array name="list_where_to_stay_names">
         <item>Hotel Mozart****</item>
         <item>Hotel Szent Janos****</item>
         <item>Hotel City Szeged***</item>
-        <item>Tiszavirag Szeged</item>
-        <item>Hotel Bella***</item>
         <item>Hotel Art Szeged****</item>
         <item>Hunguest Hotel Forras**** Superior</item>
-        <item>Hotel Novotel****</item>
         <item>Hotel Tisza***</item>
     </string-array>
 
@@ -64,18 +49,12 @@
         <item>6720 Szeged, Oskola u. 16.</item>
         <item>6722 Szeged, Gutenberg utca 12.</item>
         <item>6720 Szeged, Arany János utca 5.</item>
-        <item>6722 Szeged, Hajnóczy utca 1/b.</item>
-        <item>6724 Szeged, Pacsirta u. 31.</item>
         <item>6720 Szeged, Somogyi utca 16.</item>
         <item>6726 Szeged, Szent-Györgyi A. u. 16-24.</item>
-        <item>6721 Szeged, Maros u. 1.</item>
         <item>6720 Szeged, Széchenyi tér 3.</item>
     </string-array>
 
     <string-array name="list_where_to_stay_opening_hours">
-        <item>Opening hours: Open 24 hours</item>
-        <item>Opening hours: Open 24 hours</item>
-        <item>Opening hours: Open 24 hours</item>
         <item>Opening hours: Open 24 hours</item>
         <item>Opening hours: Open 24 hours</item>
         <item>Opening hours: Open 24 hours</item>
@@ -88,59 +67,44 @@
         <item>@drawable/mozart_hotel</item>
         <item>@drawable/szent_janos</item>
         <item>@drawable/city_szeged</item>
-        <item>@drawable/tiszavirag</item>
-        <item>@drawable/bella_hotel</item>
         <item>@drawable/art_hotel</item>
         <item>@drawable/forras_hotel</item>
-        <item>@drawable/novotel</item>
         <item>@drawable/tisza_hotel</item>
     </array>
 
     <string-array name="list_what_to_taste_names">
-        <item>Cirmi Artisan Gastropub</item>
         <item>Fehertoi Fish Restaurant and Guesthouse</item>
-        <item>Monster Downtown</item>
         <item>Gory Cellar and Terrace</item>
         <item>Frei Cafe</item>
         <item>A Cappella Confectionary and Cafe</item>
         <item>Street Cake</item>
-        <item>Absinthe Bar and Cafe</item>
         <item>Pixel Bar and Cafe</item>
     </string-array>
 
     <string-array name="list_what_to_taste_addresses">
-        <item>6720 Szeged, Tisza Lajos krt. 76.</item>
         <item>6728 Szeged, Budapesti út 41.</item>
-        <item>6720 Szeged, Stefánia 4.</item>
         <item>6723 Szeged, Liszt u. 9.</item>
         <item>6720 Szeged, Széchenyi tér 8.</item>
         <item>6720 Szeged, Kárász u. 6.</item>
         <item>6722 Szeged, Kigyo u. 2.</item>
-        <item>6722 Szeged, Tisza Lajos krt. 55.</item>
         <item>6720 Szeged, Széchenyi tér 8.</item>
     </string-array>
 
     <string-array name="list_what_to_taste_opening_hours">
-        <item>Opening Hours: approx. 11.00 - 23.00</item>
         <item>Opening hours: 11.00 - 22.00</item>
-        <item>Opening hours: approx. 11.00 - 23.00</item>
         <item>Opening hours: 11.00 - 23.00</item>
         <item>Opening hours: approx. 8.00 - 20.00</item>
         <item>Opening hours: 7.00 - 21.00</item>
         <item>Opening hours: 12.00 - 20.00</item>
-        <item>Opening hours: 17.00 - 2.00</item>
         <item>Opening hours: approx. 8.00 - 1.00, Sundays closed</item>
     </string-array>
 
     <array name="list_what_to_taste_images">
-        <item>@drawable/cirmi_eat</item>
         <item>@drawable/fehertoi_eat</item>
-        <item>@drawable/monster_eat</item>
         <item>@drawable/gory_eat</item>
         <item>@drawable/frei_cafe</item>
         <item>@drawable/acapella_caffee</item>
         <item>@drawable/street_cake</item>
-        <item>@drawable/absinthe_bar</item>
         <item>@drawable/pixel_bar</item>
     </array>
 </resources>
